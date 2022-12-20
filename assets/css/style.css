@@ -1,0 +1,116 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Fredericka the Great";
+  src: url(../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\wght.ttf);
+}
+h1,
+em {
+  font-family: "Fredericka the Great";
+}
+h2 .buttonN .navB {
+  font-family: sans-serif;
+}
+header {
+  color: white;
+  background-color: #235523;
+  background-image: url("../img/Lev3_2_css-einführung_box-model_img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+section {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  max-width: 350px;
+  padding: 50px 0;
+}
+p {
+  padding: 15px 0;
+}
+.buttonN {
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 1s;
+  border: 2px solid white;
+  padding: 2px 12px 2px 12px;
+}
+.buttonN:hover {
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 5px 5px white;
+  transition: all 1s;
+}
+header nav {
+  text-align: right;
+}
+header ul {
+  margin-left: auto;
+  width: max-content;
+}
+header nav ul li {
+  display: block;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px;
+}
+header nav a:hover {
+  color: lightskyblue;
+  text-decoration: underline;
+  transition: 1s;
+}
+main button {
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px;
+  background-color: transparent;
+  padding: 10px;
+}
+button span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+footer {
+  padding: 10px;
+  color: white;
+  background-color: rgb(2, 112, 90);
+}
+footer p {
+  font-size: 15px;
+}
+footer div a {
+  padding: 0 10px;
+  border-radius: 15px;
+  border: 2px solid white;
+  background-color: transparent;
+}
+footer div a:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 1s;
+  box-shadow: 0px 0px 5px 5px white;
+}
+footer nav {
+  text-align: right;
+  list-style-type: none;
+}
+footer nav li {
+  display: inline-block;
+}
+footer nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
